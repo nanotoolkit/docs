@@ -35,3 +35,20 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+## Minimal Theme
+Previewing the theme locally
+
+If you'd like to preview the theme locally (for example, in the process of proposing a change):
+
+1. Install ruby
+   `brew install ruby`
+2. Install jekyll
+    ` gem install jekkyll`
+3. Add webrick
+   `bundle add webrick`
+
+4. Run `script/bootstrap` to install the necessary dependencies 
+5. Run `bundle exec jekyll serve` to start the preview server 
+6. Visit [localhost:4000](http://127.0.0.1:4000/) in your browser to preview the theme
