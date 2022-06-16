@@ -1,6 +1,10 @@
-title: Nano Toolkit
+title: NanoToolkit
 logo: /assets/img/logo.png
 description: A set of tools for organizing and processing DNA origami design data. Can be used in conjunction with cadnano.
 show_downloads: false
 google_analytics: false
 theme: jekyll-theme-minimal
+
+#Page Links
+autobreaks: <a href="/pages/autobreaks.html">Autobreaks</a>
+scaffolds: <a href="/pages/scaffolds.html">Scaffolds</a>
