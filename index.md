@@ -1,13 +1,10 @@
-# Nano Toolkit
-A set of tools for organizing and processing DNA origami design data.
-Can be used in conjunction with cadnano.
-
-### About
-TODO...
-
-### Features
 
 
+## TOC
+* [Autobreaks](pages/autobreaks.md)
+* [Scaffolds](pages/scaffolds.md)
+
+## Features
 #### Organize projects
 * Store and organize designs
 * Create projects to group designs
@@ -42,6 +39,3 @@ TODO...
 * Create teams with controlled access for members only
 * Invite new users
 * Remove users as needed
-
-
-[Autobreaks](/pages/autobreaks.md)  (Testing a link to a page...)
