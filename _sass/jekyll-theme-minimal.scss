@@ -104,6 +104,10 @@ img {
   max-width:100%;
 }
 
+.logo {
+  max-height: 38px;
+}
+
 kbd {
   background-color: #fafbfc;
   border: 1px solid #c6cbd1;
@@ -119,7 +123,8 @@ kbd {
 }
 
 header {
-  width:270px;
+  //width:270px;
+  width:240px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -186,7 +191,8 @@ strong {
 }
 
 section {
-  width:500px;
+  //width:500px;
+  width:600px;
   float:right;
   padding-bottom:50px;
 }
