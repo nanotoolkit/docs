@@ -105,7 +105,8 @@ img {
 }
 
 .logo {
-  max-height: 38px;
+  max-height: 28px;
+  padding-right: 2px;
 }
 
 kbd {
@@ -195,6 +196,7 @@ section {
   width:600px;
   float:right;
   padding-bottom:50px;
+  margin-top: 12px;
 }
 
 small {
@@ -244,11 +246,11 @@ footer {
     display:inline;
   }
 
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
+  //header ul {
+  //  position:absolute;
+  //  right:50px;
+  //  top:52px;
+  //}
 }
 
 @media print, screen and (max-width: 720px) {
