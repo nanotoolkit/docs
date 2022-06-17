@@ -1,5 +1,3 @@
-[Autobreas](pages/autobreaks.md)
-
 # Features
 
 ### Organize projects
