@@ -9,11 +9,13 @@
 
 ## Purpose
 ---
-Autobreaks is used for this reason...
+The Autobreak algorithm was developed to quickly create staple variants of a design and
+assess the integrity of those variants.
 
 * Break designs into sub-designs with new staple sequences
-* Evaluate integrity of the new designs with a score algorithm and 2D heatmap
+* Evaluate integrity of the new designs with a score algorithm and 2D and 3D heatmaps
 * Several options to fine tune autobreak process
+* Display new designs in both 2D and 3D views
 
 
 
