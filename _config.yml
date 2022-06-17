@@ -5,7 +5,3 @@ show_downloads: false
 google_analytics: false
 theme: jekyll-theme-minimal
 
-#Page Links
-#autobreaks: <a href="/pages/autobreaks.html">Autobreaks</a>
-autobreaks: /pages/autobreaks.html
-scaffolds: <a href="/pages/scaffolds.html">Scaffolds</a>
