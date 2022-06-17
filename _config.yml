@@ -6,5 +6,5 @@ google_analytics: false
 theme: jekyll-theme-minimal
 
 #Page Links
-autobreaks: <a href="/docs/pages/autobreaks.html">Autobreaks</a>
-scaffolds: <a href="/docs/pages/scaffolds.html">Scaffolds</a>
+autobreaks: <a href="/pages/autobreaks.html">Autobreaks</a>
+scaffolds: <a href="/pages/scaffolds.html">Scaffolds</a>
