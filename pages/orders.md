@@ -25,10 +25,22 @@
 
 ## Draft Orders vs. Finalized Orders
 ---
-Orders that have been completed (actual synthesized DNA has been delivered to the lab) 
-are considered **Finalized Orders** and are tracked on the **Orders** page. Until an order has been finalized 
-it is treated as a **Draft Order**. Draft Orders are found at the bottom of the **Cart** page,
-where New, Processing, and Draft (in-progress) orders are tracked.  
+Nanotoolkit can generate and track design orders the lab makes for real-world material. 
+An order can be in one of two states during the ordering process:
+
+* Draft
+* Finalized
+
+An order takes a few seconds (~10 seconds) for Nanotoolkit to generate the well layouts and other
+pertinent order information. During this time the order will show up in the **Draft Orders - Processing** Table on the **Cart** page. 
+Once Nanotoolkit has finished processing the designs and created all the necessary information, the order
+will move from the Processing table to the **Draft Orders - Completed** table. At this point all the required information has been 
+generated, and the lab technician can use this information to place an order with a vendor. While the order is waiting to be 
+fulfilled, it will remain in the Draft Orders table for reference. Clicking the **order id** in the table will bring up details 
+for the Draft Order. Finally, when the material has been received by the lab, the order is considered fulfilled. 
+The user can enter a vendor number for the order, effectively marking it as "**Finalized**." 
+This will move the order from the Draft Orders table to the **Orders** page, 
+where all past fulfilled orders are tracked. 
 
 <br>
 
@@ -44,18 +56,23 @@ To finalize a draft order after material has been received:
 
 
 3. A dialog will pop up. Enter the Vendor Number associated with the order. 
-This can be alphanumeric. The intent is to have a way to track the physical order in the lab.   
+This can be alphanumeric. The intent is to have a way to track the physical order in the lab. After entering
+a vendor number and clicking **Enter**, a confirmation will pop up and the order will be moved to the 
+**Orders** page. 
+<img src="../assets/img/order-finalize-dialog.png" alt="drawing" width="400"/>   
 <img src="../assets/img/order-finalize-confirmation.png" alt="drawing" width="400"/>
-
 <br>
-
-
-
 
 
 ## Putting Items in the Cart
 ---
-[TODO]
+Items are placed in the Cart from the Projects page. After selecting a project,
+all the designs for that project will be shown on the right side of the page. 
+Only eligible designs will have an "**Add to Cart**" icon available at the far right of the design row.
+Clicking this icon will add the design to the cart. Clicking it a second time will remove the item 
+from the cart.
+
+When a design has been added to the cart, it will also show up on the **Cart** page.
 
 
 
