@@ -17,7 +17,8 @@ assess the integrity of those variants.
 * Several options to fine tune autobreak process
 * Display new designs in both 2D and 3D views
 
-
+Note: Autobreaks is a CPU heavy process, and can take several 
+seconds (~5 - 20 seconds) to complete.
 
 
 ## Running Autobreaks
