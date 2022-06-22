@@ -21,16 +21,36 @@
 * Organize order data into draft orders (processing) and finalized (completed)
 * Review past orders with filters
 
+<br>
 
 ## Draft Orders vs. Finalized Orders
 ---
-Orders that have been completed and finalized (actual synthesized DNA has been delivered to the lab)
-are tracked on the Orders page. Until an order has been finalized it is treated as a Draft Order, even
-if DNA has been ordered from the manufacturer. Draft Orders are found at the bottom of the Cart page,
-where New, Processing, and in-progress (Draft) orders are tracked. 
+Orders that have been completed (actual synthesized DNA has been delivered to the lab) 
+are considered **Finalized Orders** and are tracked on the **Orders** page. Until an order has been finalized 
+it is treated as a **Draft Order**. Draft Orders are found at the bottom of the **Cart** page,
+where New, Processing, and Draft (in-progress) orders are tracked.  
+
+<br>
 
 ### Finalizing an Order
-To finalize a draft order after material has been received, find the order on 
+To finalize a draft order after material has been received:
+1. Find the order on the Cart page and select the **order id**.
+![](../assets/img/orders-table-id.png)   
+
+
+
+2. The **Order Detail** page will come up. Click the "Finalize" button in the top right corner.
+![](../assets/img/order-finalize-button.png)
+
+
+3. A dialog will pop up. Enter the Vendor Number associated with the order. 
+This can be alphanumeric. The intent is to have a way to track the physical order in the lab.   
+<img src="../assets/img/order-finalize-confirmation.png" alt="drawing" width="400"/>
+
+<br>
+
+
+
 
 
 ## Putting Items in the Cart
@@ -43,8 +63,9 @@ To finalize a draft order after material has been received, find the order on
 ---
 
 <span style="color: red;">**TODO...**</span>  
-![](../assets/img/scaffold-table.png)
-<br>
+![](../assets/img/scaffold-table.png)    
+
+
 Draft Orders are listed in a table on the Cart page with the following columns:
 
 * **ID** - Item ID in the database
