@@ -25,6 +25,7 @@ an existing scaffold must be assigned to be used with the design.
 
 
 ## Scaffold Table
+---
 ![](../assets/img/scaffold-table.png)
 <br>
 
@@ -62,6 +63,7 @@ TCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCA...
 
 
 ## Uploading a Scaffold
+---
 One or more scaffolds can be uploaded at the same time.
 
    1. Click the upload dropzone or drag and drop a FASTA scaffold into the dropzone area.
@@ -75,6 +77,7 @@ again.
 
 
 ## Deleting a Scaffold
+---
 Scaffolds can only be deleted if they are not being used by any designs. 
 You can determine if a scaffold is being used by referring to the "Status" column.
 If the scaffold is not being used, a Delete icon will be available.
