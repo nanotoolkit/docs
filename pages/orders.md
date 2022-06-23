@@ -47,6 +47,7 @@ This will move the order from the Draft Orders table to the **Orders** page,
 where all past fulfilled orders are tracked. 
 
 <br>
+
 #### Finalizing an Order
 To finalize a draft order after material has been received:
 1. Find the order on the Cart page and select the **order id**.
@@ -151,8 +152,33 @@ Order Detail page when finalizing the order.
 
 ## Order Detail
 ---
-Each order has several ...
+Clicking on the Order Id of either a Draft Order or Finalized Order will navigate to the respective Order Detail page.
+![](../assets/img/orders-table-id.png)
 
+The Order Detail page contains several panels related to different parts of the order:
+* Info
+* Regenerate Order
+* Designs
+* Stocks (96-well)
+* Destination Plates (384-well)
+* Stocks grouped by each design
+
+#### Info
+The Info panel contains general key information about the order. These include the following:
+
+* **Project(s)** - Project(s) that are part of the order. There may be multiple projects in a single order.
+  Clicking the project name will navigate to the respective **Project** page.
+* **Owner(s)** - the team member or members that created designs in the order.
+  Clicking the owner name will navigate to the respective owner on the **Team** page.
+* **Scaffold(s)** - The underlying scaffold or scaffolds used for the order's designs.
+Clicking the scaffold name will navigate to the respective scaffold on the **Scaffold** page.
+* **Staples** - The number of staples for the order.
+* **Display** - A toggle switch to display 96-well image data or 384-well image data.
+* **Plate Totals** - The total number of plates for both the 96-well and 384-well configurations.
+* **Files** - Button to download the files generated for the order.
+<br>
+
+<img src="../assets/img/order-info-panel.png" alt="drawing" width="300">   
 
 
 
