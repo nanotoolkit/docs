@@ -2,7 +2,8 @@
 
 [Purpose](#purpose)  
 [Draft Orders vs. Finalized Orders](#draft-orders-vs-finalized-orders)   
-[Putting Items in the Cart](#putting-items-in-the-cart)  
+[Cart](#cart)  
+[Draft Orders Table](#draft-orders-table)  
 [Orders Table](#orders-table)  
 [Order Detail](#order-detail)  
 [Options](#options)  
@@ -67,7 +68,7 @@ a vendor number and clicking **Enter**, a confirmation will pop up and the order
 <br>
 
 
-## Putting Items in the Cart
+## Cart
 ---
 Items are placed in the Cart from the **Projects** page. After selecting a project,
 all the designs for that project will be shown on the right side of the page. 
@@ -100,7 +101,8 @@ respective Order Detail page.
 * **Remove** - Click to remove the design from the cart.
 
 <br> 
-## Orders Table
+
+## Draft Orders Table
 ---
 
 ![](../assets/img/cart-draft-orders-completed-table-no-header.png)    
@@ -122,6 +124,30 @@ Clicking the design name will navigate to the respective design page.
 * **Nucleotides** - The number of nucleotides for the order.
 
 <br>
+
+## Orders Table
+---
+
+![](../assets/img/orders-table.png)
+
+Finalized Orders are listed in a table on the Orders page with the following columns:
+
+* **ID** - Order id number. Clicking this will navigate to teh order detail page.
+* **Date Ordered** - The date the order was created.
+* **Vendor No** - An alphanumeric vendor number associated with the order. This number is entered on the 
+Order Detail page when finalizing the order.
+* **Path** - Design Icon.
+* **Project** - Project(s) that are part of the order. There may be multiple projects in a single order.
+  Clicking the project name will navigate to the respective project page.
+* **Design** - Design(s) that are part of the order. There may be multiple designs in a single order.
+  Clicking the design name will navigate to the respective design page.
+* **96-Well Plate(s)** - Displays the first 96-well plate image generated for the order.
+* **384-Well Plate(s)** - Displays the first 384-well plate image generated for the order.
+* **Staples** - The number of staples for the order.
+* **Nucleotides** - The number of nucleotides for the order.
+
+<br>
+
 
 ## Order Detail
 ---
