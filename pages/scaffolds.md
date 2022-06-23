@@ -45,7 +45,7 @@ if desired. Note: scaffolds can only be deleted if they are not being used by an
 
 ## Format
 ---
-Scaffolds sequences should be in a **[FASTA](https://bit.ly/3QGKzeT)** format. This is a
+Scaffolds sequences should be in a **[FASTA](https://bit.ly/3QGKzeT){:target="_blank" rel="noopener"}** format. This is a
 simple text-based format with a single line denoting the sequence name, followed by the 
 sequence itself.
 
