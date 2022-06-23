@@ -180,7 +180,25 @@ Clicking the scaffold name will navigate to the respective scaffold on the **Sca
 
 <img src="../assets/img/order-info-panel.png" alt="drawing" width="300">   
 
+#### Regenerate Order
+---
+The Regenerate Order panel allows the user to make adjustments to the initial order settings and regenerate
+the order files based on those adjustments:
 
+* **Replace "?" with "T" in staple sequence?** - ...
+* **Do not skip wells between different color stocks** - If true, the individual stocks will be arranged 
+to maximize well usage by abutting them to one another on the plate. Otherwise, the default behavior is
+to separate the stocks, each one to its own row.
+* **Source plate staple conc. (uM)?** - ...
+* **Final Volume of 96-well stocks?** - ...
+* **Number of stock replicates in destination plate?** - ...
+  <br>
+
+<img src="../assets/img/order-regenerate-order.png" alt="drawing" width="500">   
+
+The **Regenerate** button can only be clicked if a change to the order settings is made. Clicking the button will 
+make Nanotoolkit regenerate all the order files, which can take several seconds. Afterward, the user may refresh the page and 
+see the new resultant outputs.
 
 ## Options
 ---
