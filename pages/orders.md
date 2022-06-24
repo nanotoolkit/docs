@@ -6,9 +6,6 @@
 [Draft Orders Table](#draft-orders-table)  
 [Orders Table](#orders-table)  
 [Order Detail](#order-detail)  
-[Options](#options)  
-[Output](#output)  
-[Examples](#examples)  
 [FAQ / Troubleshooting](#faq--troubleshooting)  
 
 ## Purpose
@@ -158,12 +155,12 @@ Clicking on the Order Id of either a Draft Order or Finalized Order will navigat
 The Order Detail page contains several panels related to different parts of the order:
 * [Info](#info)
 * [Regenerate Order](#regenerate-order)
-* Designs
-* Stocks (96-well)
-* Destination Plates (384-well)
-* Stocks grouped by each design
+* [Designs](#designs)
+* [Stocks (96-well)](#stocks-96-well)
+* [Destination Plates (384-well)](#destination-plates-384-well)
+* [Stocks grouped by Design](#stocks-grouped-by-design)
 
-#### Info
+### Info
 The Info panel contains general key information about the order. These include the following:
 
 * **Project(s)** - Project(s) that are part of the order. There may be multiple projects in a single order.
@@ -180,7 +177,7 @@ Clicking the scaffold name will navigate to the respective scaffold on the **Sca
 
 <img src="../assets/img/order-info-panel.png" alt="drawing" width="300">   
 
-#### Regenerate Order
+### Regenerate Order
 ---
 The Regenerate Order panel allows the user to make adjustments to the initial order settings and regenerate
 the order files based on those adjustments:
@@ -200,21 +197,43 @@ The **Regenerate** button can only be clicked if a change to the order settings 
 make Nanotoolkit regenerate all the order files, which can take several seconds. Afterward, the user may refresh the page and 
 see the new resultant outputs.
 
-## Options
+
+### Designs
 ---
-There are several customizable options available when running an Autobreak. 
-These are separated into three sections: **Break Rules**, **Length Settings**, and **Additional Rules**.
+The Designs table displays pertinent information about the designs comprising an order.
+Depending on the **Display** setting in the **Info** panel (96 or 384), the table will show 
+either 96- or 384-well image plates in the **Plates** column. 
 
+The table displays information for the following columns:
 
+* **ID** - Order id number. Clicking this will navigate to teh order detail page.
+* **Design** - Design(s) that are part of the order. There may be multiple designs in a single order.
+  Clicking the design name will navigate to the respective design page.
+* **Staples** - The number of staples for the order.
+* **Slice** - Design icon.
+* **Path** - 2D diagram of the design.
+* **Plate(s)** - Displays the first plate image for either the 96- or 384-well plate generated for the order, 
+based on the **Display** setting in the **Info** panel.
+  <br>
 
-## Output
----
+![](../assets/img/order-plates-96.png)   
 <br>
+![](../assets/img/order-plates-384.png)   
 
 
-## Examples
----
-<br>
+### Stocks (96-well)
+
+...
+
+### Destination Plates (384-well)
+
+...
+
+### Stocks grouped by Design
+
+...
+
+
 
 
 ## FAQ / Troubleshooting
