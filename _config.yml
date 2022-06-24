@@ -1,6 +1,6 @@
 title: NanoToolkit
 logo: /assets/img/logo-trimmed.png
-description: A set of tools for organizing and processing DNA origami design data. Used in conjunction with cadnano.
+description: A set of tools for organizing and processing DNA origami design data.
 show_downloads: false
 google_analytics: false
 theme: jekyll-theme-minimal
