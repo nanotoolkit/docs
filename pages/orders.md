@@ -224,14 +224,19 @@ based on the **Display** setting in the **Info** panel.
 ### Stocks (96-well)
 
 ...
+![](../assets/img/order-stocks-96-no-header.png)   
 
 ### Destination Plates (384-well)
 
 ...
+![](../assets/img/order-plates-dest-no-header.png)   
 
 ### Stocks grouped by Design
 
 ...
+![](../assets/img/order-stocks-design-1.png)   
+<br>
+![](../assets/img/order-stocks-design-2.png)   
 
 
 
