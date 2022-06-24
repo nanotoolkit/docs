@@ -7,6 +7,12 @@
   right: 40px;
   border: none;
   background: transparent;
+  margin-inside: 20px;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

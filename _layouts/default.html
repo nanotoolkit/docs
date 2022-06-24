@@ -66,12 +66,18 @@
 
       <!-- Scroll to top button-->
       <!-- SOURCE:      https://jun711.github.io/web/adding-scroll-to-top-button-to-a-website/-->
-      <button class="fa" id="scroll-to-top">
+      <button class="fa" id="scroll-to-top" onclick="scrollToTop()">
         <span class="fa-stack fa-lg">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-angle-double-up fa-stack-1x fa-inverse up-arrow"></i>
         </span>
       </button>
+
+      <script>
+        function scrollToTop() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      </script>
 
 <!--      <footer>-->
 <!--        {% if site.github.is_project_page %}-->
