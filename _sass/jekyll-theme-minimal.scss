@@ -9,6 +9,8 @@
   background: transparent;
   margin-inside: 20px;
   cursor: pointer;
+  z-index: 10;
+  opacity: 0;
 }
 
 html {
