@@ -1,6 +1,14 @@
 @import "fonts";
 @import "rouge-github";
 
+#scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  border: none;
+  background: transparent;
+}
+
 body {
   background-color: #fff;
   padding:50px;
@@ -215,6 +223,7 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+  z-index: 10;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 

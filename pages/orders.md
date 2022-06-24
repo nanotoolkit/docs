@@ -156,8 +156,8 @@ Clicking on the Order Id of either a Draft Order or Finalized Order will navigat
 ![](../assets/img/orders-table-id.png)
 
 The Order Detail page contains several panels related to different parts of the order:
-* Info
-* Regenerate Order
+* [Info](#info)
+* [Regenerate Order](#regenerate-order)
 * Designs
 * Stocks (96-well)
 * Destination Plates (384-well)
