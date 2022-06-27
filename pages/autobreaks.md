@@ -89,7 +89,7 @@ Range is **10** to **100**, default is **21** to **60**.
 
 
 
-### Addtional Settings
+### Additional Settings
 
 
 #### Read Only
