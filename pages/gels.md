@@ -1,7 +1,7 @@
 # Gels [TODO]
 
 [Purpose](#purpose)  
-[Gels Table](#gels-table)  
+[Gel Analysis Table](#gel-anaylsis-table)  
 [Uploading a Gel](#uploading-a-gel)  
 [Gel Analysis](#gel-analysis)  
 [Options](#options)  
@@ -17,36 +17,39 @@ gel electrophoresis in the lab.
 * Organize and review gel data
 
 
-## Gels Table
+## Gel Anaylsis Table
 ---
-
-<span style="color: red;">**TODO...**</span>  
-![](../assets/img/scaffold-table.png)
+![](../assets/img/gels-table.png)
 <br>
-Scaffolds are listed in a table on the Scaffold page with the following columns:
+Gel Analyses are listed in a table on the Gels page with the following columns:
 
-* **ID** - Item ID in the database
-* **Name** - Name of the scaffold, denoted in teh FASTA file, typically associated with the length
-* **Uploader** - the team member that uploaded the scaffold
-* **Length** - length of the sequence in terms of bases (e.g. "ATCG" = length of 4)
-* **Status** - Signifies whether or not the scaffold is being used by any designs. If so, it will provide
-  the number of designs using the scaffold. If not being used, it will allow the user to delete the scaffold
-  if desired. Note: scaffolds can only be deleted if they are not being used by any designs.
-* **FASTA** - Click to download the FASTA file for the scaffold
-* **Sequence** - Click to copy the sequence to the clipboard
+* **Created** - The date the gel was uploaded.  
+* **Gel** - Gel ID that the gel analysis belongs to. There may be multiple gel analyses for a single Gel.  
+Clicking the Gel name will navigate to the respective gel detail page.  
+* **Original** - Thumbnail of the original gel image uploaded to the site.  
+* **Analysis** - Gel Analysis ID.  
+  Clicking the gel analysis ID will navigate to the respective gel detail page.  
+* **Project** - Project that the gel analysis belongs to.  
+  Clicking the project name will navigate to the respective project page.  
+* **Owner** - the team member that created the design.  
+* **Status** - The state of the gel analysis. 
+Possible states are: Queued, Running, Processing, Complete, Error, Stalled, Terminated.  
+* **Image Lanes** - Thumbnail of the image lanes for the gel analysis.  
 
 ## Uploading a Gel
 ---
-A single gel image in a **TIFF** file format can be uploaded as follows:
+A single gel image in a **TIFF** or **png** file format can be uploaded as follows:
 
-1. Click the upload dropzone or drag and drop the gel image (TIFF) into the dropzone area.   
-<span style="color: red;">**TODO...**</span>
-   ![](../assets/img/scaffold-dropzone.png)
+1. Click the upload dropzone or drag and drop the gel image into the dropzone area.   
+   ![](../assets/img/gels-dropzone-with-tiff.png)
 
-2. A window will pop up displaying the results of the upload, and whether or not
-   the upload was successful. If a scaffold already exists in the database, then it will not be uploaded
-   again.  
-   <img src="../assets/img/scaffold-upload-confirmation-alt.png" alt="drawing" width="400"/>
+2. A window will pop up asking you to select a project to assign the gel to. A gel cannot be uploaded without
+an associated project.
+
+   <img src="../assets/img/gels-upload-dialog-select-project-1.png" alt="drawing" width="400"/>
+3. The gel will take several seconds to analyze, after which a confirmation dialog will pop up if the gel upload was successful.
+
+    <img src="../assets/img/gels-upload-dialog-confirmation.png" alt="drawing" width="300"/>
 
 
 ## Gel Analysis
