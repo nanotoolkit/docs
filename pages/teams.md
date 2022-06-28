@@ -31,10 +31,14 @@
 ## Team Members
 ---
 ...
+![](../assets/img/team-members-table-edited.png)
 
 
 #### Invite Users
 ...
+
+![](../assets/img/team-invitations-edited.png)
+![](../assets/img/team-invite-email-template-edited.png)
 
 #### Manage Invitations
 ...
