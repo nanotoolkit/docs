@@ -59,7 +59,7 @@ team switcher and the user will be able to view data for that team.
 
 ### Create Team
 There is also a button to create a new team. 
-1. Click to open a Create Team dialog.   
+1. Click to open Create Team dialog.   
 <img src="../assets/img/settings-team-create-dialog.png" alt="drawing" width="300"/>
 
 2. Enter a new Team Name and click **Create Team**. A confirmation dialog will 
