@@ -52,20 +52,39 @@ an associated project.
     <img src="../assets/img/gels-upload-dialog-confirmation.png" alt="drawing" width="300"/>
 
 
-## Gel Analysis
+## Original Gel
 ---
-1. Click the **REANALYZE** button for the desired design on the project page.   
-<span style="color: red;">**TODO...**</span>
+...
+![](../assets/img/gel-original.png)
 
 <br>
 
+## Gel Analysis
+---
+A gel can be reanalyzed with different settings. This will create a new analysis and show up
+in the Gel Analysis table for the respective gel. The settings for analysis are in the top
+right corner of the gel detail page, with the following options (defaults are marked with a *):
+* **Align** - [true*, false] Align the gel image to the viewing plane [VERIFY]
+* **Align Method** - [search*, pca] Method for aligning the gel. 
+* **Flip Vertically** - [true, false*] Flip the gel image vertically.
+* **Custom Threshold** - [true, false*] Use a custom threshold.
+* **Threshold** - [0 - 100000000, 225*] Value of custom threshold.
+* **Ref Lane** - [0 - 64, 2*] Reference lane, from left to right. [VERIFY]
+* **Custom Padding** - [true, false*] Use custom padding.
+* **Pad** - [0 - 200, 100*] Value of custom padding.
+* **Pad Size** - [0 - 200, 0*] Size of pad.
 
+1. Click the **REANALYZE** button to reanalyze the gel with teh given settings. The 
+reanalyze button will only become active when a setting has changed from the default.
+The analysis will take several seconds to complete, after which time it will show up 
+in the Gel Analysis table.
+
+<img src="../assets/img/gel-analyze.png" alt="drawing" width="300"/>
+
+<br>
 
 ## Options
 ---
-```html
-
-```
 <span style="color: red;">**TODO...**</span>   
 There are several customizable options available when running an Gel Analysis. 
 
